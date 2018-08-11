@@ -1,0 +1,172 @@
+{
+  "bodies": [
+    {
+      "pack": "Stock",
+      "author": "Squad",
+      "bodyName": "Sun",
+      "bodyClass": "G",
+      "soi": 0,
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "pack": "Interstellar Consortium",
+      "author": "Community",
+      "bodyName": "Galaxy Center",
+      "bodyClass": "X",
+      "soi": 1,
+      "position": {
+        "x": -10,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "pack": "Other Worlds Reboot",
+      "author": "Niako",
+      "bodyName": "Cercani",
+      "bodyClass": "K",
+      "soi": 0.8,
+      "position": {
+        "x": -1,
+        "y": 3,
+        "z": 0.5
+      }
+    },
+    {
+      "pack": "Other Worlds Reboot",
+      "author": "Niako",
+      "bodyName": "Terea",
+      "bodyClass": "M",
+      "soi": 0.5,
+      "position": {
+        "x": 1.5,
+        "y": 5,
+        "z": -0.1
+      }
+    },
+    {
+      "pack": "Other Worlds Reboot",
+      "author": "Niako",
+      "bodyName": "Astra",
+      "bodyClass": "F",
+      "soi": 1,
+      "position": {
+        "x": -4,
+        "y": 7,
+        "z": 2.5
+      }
+    },
+    {
+      "pack": "Other Worlds Reboot",
+      "author": "Niako",
+      "bodyName": "Ma-Jitu",
+      "bodyClass": "G",
+      "soi": 0.8,
+      "position": {
+        "x": -12,
+        "y": 9,
+        "z": -1.3
+      }
+    },
+    {
+      "pack": "The Worlds Beyond",
+      "author": "TheProtagonist",
+      "bodyName": "Dawn",
+      "bodyClass": "A",
+      "soi": 1,
+      "position": {
+        "x": -0.4,
+        "y": -4.1,
+        "z": -1
+      }
+    },
+    {
+      "pack": "Alternis Kerbol Rekerjiggered",
+      "author": "Gregrox",
+      "bodyName": "Alternis",
+      "bodyClass": "G",
+      "soi": 0.8,
+      "position": {
+        "x": -2.3,
+        "y": 3.9,
+        "z": 1.3
+      }
+    },
+    {
+      "pack": "Seven Worlds of SLIPPIST-1",
+      "author": "Gregrox",
+      "bodyName": "SLIPPIST-1",
+      "bodyClass": "M",
+      "soi": 0.2,
+      "position": {
+        "x": 5,
+        "y": -4,
+        "z": 0.1
+      }
+    },
+    {
+      "pack": "Whirligig World",
+      "author": "Gregrox",
+      "bodyName": "Kaywell",
+      "bodyClass": "F",
+      "soi": 1,
+      "position": {
+        "x": -4,
+        "y": -2.4,
+        "z": -3
+      }
+    },
+    {
+      "pack": "[RESERVED BY GREGOX]",
+      "author": "Gregrox",
+      "bodyName": "???",
+      "bodyClass": "?",
+      "soi": 0.8,
+      "position": {
+        "x": -23,
+        "y": -8,
+        "z": -0.2
+      }
+    },
+    {
+      "pack": "Rocheworld",
+      "author": "Gregrox",
+      "bodyName": "Barnard",
+      "bodyClass": "M",
+      "soi": 0.2,
+      "position": {
+        "x": -6,
+        "y": -7,
+        "z": 0
+      }
+    },
+    {
+      "pack": "[RESERVED BY ARTHUR]",
+      "author": "Tutur",
+      "bodyName": "Ampere",
+      "bodyClass": "M",
+      "soi": 0.2,
+      "position": {
+        "x": -2,
+        "y": 1,
+        "z": 3.4
+      }
+    },
+    {
+      "pack": "Event Horizon",
+      "author": "GrandProtectorDark",
+      "bodyName": "Murph",
+      "bodyClass": "X",
+      "soi": 1,
+      "position": {
+        "x": -12,
+        "y": 2.4,
+        "z": 3
+      }
+    }
+  ]
+}
