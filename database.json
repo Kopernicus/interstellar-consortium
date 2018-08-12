@@ -121,11 +121,8 @@
       }
     },
     {
-      "pack": "[RESERVED BY GREGOX]",
       "author": "Gregrox",
-      "bodyName": "???",
-      "bodyClass": "?",
-      "soi": 0.8,
+      "reserved": true,
       "position": {
         "x": -23,
         "y": -8,
