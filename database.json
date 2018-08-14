@@ -164,6 +164,54 @@
         "y": 2.4,
         "z": 3
       }
+    },
+    {
+      "pack": "Galileo Planet Pack",
+      "author": "GPP Team",
+      "bodyName": "Ciro",
+      "bodyClass": "G",
+      "soi": 0.8,
+      "position": {
+        "x": -5.8,
+        "y": -4.5,
+        "z": -0.5
+      }
+    },
+    {
+      "pack": "Gameslinx Planet Overhaul",
+      "author": "Gameslinx",
+      "bodyName": "GPO's Star",
+      "bodyClass": "G",
+      "soi": 0.6,
+      "position": {
+        "x": -5.5,
+        "y": 4.5,
+        "z": 0.2
+      }
+    },
+    {
+      "pack": "Before Kerbin",
+      "author": "Gameslinx",
+      "bodyName": "BK's Star",
+      "bodyClass": "G",
+      "soi": 0.8,
+      "position": {
+        "x": -6.8,
+        "y": 3.5,
+        "z": 0.3
+      }
+    },
+    {
+      "pack": "After Kerbin",
+      "author": "Gameslinx",
+      "bodyName": "AK's Star",
+      "bodyClass": "M",
+      "soi": 1,
+      "position": {
+        "x": -9.2,
+        "y": 3.1,
+        "z": 2.3
+      }
     }
   ]
 }
