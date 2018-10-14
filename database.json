@@ -192,7 +192,7 @@
     {
       "pack": "Before Kerbin",
       "author": "Gameslinx",
-      "bodyName": "BK's Star",
+      "bodyName": "Helios",
       "bodyClass": "G",
       "soi": 0.8,
       "position": {
@@ -204,13 +204,25 @@
     {
       "pack": "After Kerbin",
       "author": "Gameslinx",
-      "bodyName": "AK's Star",
+      "bodyName": "Archangel",
       "bodyClass": "M",
       "soi": 1,
       "position": {
         "x": -9.2,
         "y": 3.1,
         "z": 2.3
+      }
+    },
+    {
+      "pack": "???",
+      "author": "Zarbon",
+      "bodyName": "Darwin",
+      "bodyClass": "F",
+      "soi": 1,
+      "position": {
+        "x": 1.8,
+        "y": -11.7,
+        "z": 2.5
       }
     }
   ]
