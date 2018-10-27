@@ -10,8 +10,9 @@ namespace InterstellarConsortium
     {
         void Start()
         {
-            Events.OnLoaderLoadBody.Add((body, config) => InterstellarReferenceLoader.OnLoaderLoadBody(body, config));
-            Events.OnLoaderLoadedAllBodies.Add((loader, config) => InterstellarReferenceLoader.OnLoaderLoadedAllBodies(loader, config));
+            Events.OnBodyApply.Add((body, config) => ICPatcher.OnBodyApply(body, config));
+            Events.OnLoaderLoadBody.Add((body, config) => ICPatcher.OnLoaderLoadBody(body, config));
+            Events.OnLoaderLoadedAllBodies.Add((loader, config) => ICPatcher.OnLoaderLoadedAllBodies(loader, config));
         }
     }
 }
