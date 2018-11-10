@@ -10,7 +10,8 @@ namespace InterstellarConsortium
         // Load the settings from GameData
         static InterstellarSettings()
         {
-            ConfigNode node = GameDatabase.Instance.GetConfigs("IC")[0].config;
+            // Maybe change this to manual loading to prevent tampering with the config?
+            ConfigNode node = GameDatabase.Instance.GetConfigs("InterstellarConsortium")[0].config;
             Instance = Parser.CreateObjectFromConfigNode<InterstellarSettings>(node);
         }
 
@@ -22,5 +23,8 @@ namespace InterstellarConsortium
 
         [ParserTarget("KI")]
         public NumericParser<Double> KI = 1E13;
+
+        [ParserTarget("Settings")] 
+        public ConfigNode Settings;
     }
 }
