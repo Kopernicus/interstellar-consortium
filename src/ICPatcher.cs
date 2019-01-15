@@ -33,6 +33,12 @@ namespace InterstellarConsortium
                 // We found a Sun. Same reason as for Kerbin, we want to assign those names
                 RenameBody(body, "Sun::" + Guid.NewGuid());
             }
+            
+            // Check if the name of the body already exists
+            if (Bodies.Any(b => b.name == body.name))
+            {
+                RenameBody(body, body.name + "::" + Guid.NewGuid());
+            }
         }
 
         /// <summary>
