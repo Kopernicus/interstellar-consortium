@@ -10,6 +10,8 @@ namespace InterstellarConsortium
     [SuppressMessage("ReSharper", "ConvertClosureToMethodGroup")]
     public class EventHook : MonoBehaviour
     {
+        private Boolean _settingsApplied;
+        
         void Start()
         {
             Events.OnBodyApply.Add((body, config) => ICPatcher.OnBodyApply(body, config));
@@ -19,8 +21,27 @@ namespace InterstellarConsortium
         }
 
         // Convert the settings defined by the user into MM :FOR[] nodes
+        public IEnumerable<String> ModuleManagerAddToModList()
+        {
+            if (_settingsApplied)
+            {
+                return null;
+            }
+
+            _settingsApplied = true;
+            UrlDir.UrlFile file = GameDatabase.Instance.GetConfigs("InterstellarConsortium")[0].parent;
+            return ConvertToTags(InterstellarSettings.Instance.Settings, "IC");
+        }
+
+        // Convert the settings defined by the user into MM :FOR[] nodes
         void OnGameDatabaseLoaded()
         {
+            if (_settingsApplied)
+            {
+                return;
+            }
+
+            _settingsApplied = true;
             UrlDir.UrlFile file = GameDatabase.Instance.GetConfigs("InterstellarConsortium")[0].parent;
             List<String> tags = ConvertToTags(InterstellarSettings.Instance.Settings, "IC");
             for (Int32 i = 0; i < tags.Count; i++)
