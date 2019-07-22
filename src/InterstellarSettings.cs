@@ -1,11 +1,16 @@
 using System;
-using Kopernicus;
+using System.Diagnostics.CodeAnalysis;
+using Kopernicus.ConfigParser;
+using Kopernicus.ConfigParser.Attributes;
+using Kopernicus.ConfigParser.BuiltinTypeParsers;
 
 namespace InterstellarConsortium
 {
+    [SuppressMessage("ReSharper", "UnassignedField.Global")]
+    [SuppressMessage("ReSharper", "FieldCanBeMadeReadOnly.Global")]
     public class InterstellarSettings
     {
-        public static InterstellarSettings Instance { get; set; }
+        public static InterstellarSettings Instance { get; }
 
         // Load the settings from GameData
         static InterstellarSettings()
@@ -22,7 +27,7 @@ namespace InterstellarConsortium
         public String HomePlanet;
 
         [ParserTarget("KI")]
-        public NumericParser<Double> KI = 1E13;
+        public NumericParser<Double> Ki = 1E13;
 
         [ParserTarget("Settings")] 
         public ConfigNode Settings;
