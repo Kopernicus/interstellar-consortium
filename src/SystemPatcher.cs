@@ -63,7 +63,6 @@ namespace InterstellarConsortium
             generatedBody.name = name;
             generatedBody.celestialBody.bodyName = name;
             generatedBody.celestialBody.transform.name = name;
-            generatedBody.celestialBody.bodyTransform.name = name;
             generatedBody.scaledVersion.name = name;
             if (generatedBody.pqsVersion == null)
             {
@@ -172,7 +171,7 @@ namespace InterstellarConsortium
                     // that value, and i want IC to be compatible with all versions
                     try
                     {
-                        PropertyInfo orbitMode = typeof(OrbitLoader).GetProperty("mode");
+                        PropertyInfo orbitMode = typeof(OrbitLoader).GetProperty("Mode");
                         if (orbitMode != null)
                         {
                             Type parserType = orbitMode.PropertyType;
